@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\muhammed.yilmaz\\OneDrive - DEFACTO PERAKENDE TIC. A.S\\Masaüstü\\App\\src\\App.Elastic.Shared\\App.Elastic.Shared.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\muhammed.yilmaz\\OneDrive - DEFACTO PERAKENDE TIC. A.S\\Masaüstü\\App\\src\\App.Elastic.Shared\\App.Elastic.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muhammed.yilmaz\\OneDrive - DEFACTO PERAKENDE TIC. A.S\\Masaüstü\\App\\src\\App.Elastic.Shared\\App.Elastic.Shared.csproj",
+        "projectName": "App.Elastic.Shared",
+        "projectPath": "C:\\Users\\muhammed.yilmaz\\OneDrive - DEFACTO PERAKENDE TIC. A.S\\Masaüstü\\App\\src\\App.Elastic.Shared\\App.Elastic.Shared.csproj",
+        "packagesPath": "C:\\Users\\muhammed.yilmaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muhammed.yilmaz\\OneDrive - DEFACTO PERAKENDE TIC. A.S\\Masaüstü\\App\\src\\App.Elastic.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\muhammed.yilmaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.df-api.net/DefaultCollection/_packaging/DfApiArtifacts/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>App</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\App.Domain.Shared\App.Domain.Shared.csproj" />
+        <ProjectReference Include="..\App.Elastic.Shared\App.Elastic.Shared.csproj" />
+    </ItemGroup>
+</Project>
